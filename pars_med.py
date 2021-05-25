@@ -33,7 +33,6 @@ class TopicParser:
 
     def __init__(self, path):
         self.path = path
-        self.topic_list = None
 
     def get_data_pdf_like_text(self) -> str:
         """
